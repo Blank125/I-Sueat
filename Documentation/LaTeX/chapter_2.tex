@@ -13,9 +13,27 @@ The basic architecture of ASR involves four main components: signal processing a
 
 \section{Speech Recognition Toolkits}
 
-Over the last few decades, commercial proprietary speech recognition systems have emerged such as AT\&T Watson [b1], Microsoft Speech Server [b2], Google Speech API [b3] and Nuance Recognizer [b4]. These systems, however, are difficult to integrate into other software and they offered no control over the recognizer’s features which led to the development of open-source automatic speech recognition systems.  
+Over the last few decades, commercial proprietary speech recognition systems have emerged such as AT&T Watson [b1], Microsoft Speech Server [b2], Google Speech API [b3] and Nuance Recognizer [b4]. However, because these systems are difficult to incorporate into other software and provide little control over the recognizer's capabilities, open-source automatic speech recognition systems have emerged.
 
-In 2014, a comparative study was performed that involved training language and acoustic models for open-source ASR toolkits such as HDecode, Julius, pocketsphinx, Sphinx-4, and Kaldi. Their experiments showed an order of the evaluated toolkits regarding the ratio of effort to performance. The results showed that Kaldi outperformed all the other recognition toolkits when provided given out of the box training and decoding pipelines. The Sphinx also showed that it could provide training pipelines with a high possibility of achieving good results in a short amount of time.  [b5]
+The training of linguistic and acoustic models for open-source ASR toolkits such as HDecode, Julius, pocketsphinx, Sphinx-4, and Kaldi was done in comparative research in 2014. Their trials revealed a ranking of the toolkits based on the effort-to-performance ratio. When given out-of-the-box training and decoding pipelines, the results showed that Kaldi outperformed all other recognition toolkits. The Sphinx also demonstrated that it could give training pipelines with a high chance of producing good results in a short period of time. [b5]
+
+\section{About Kaldi}
+
+
+This study focuses on Kaldi as the toolkit of choice given the performance of Kaldi in comparison to other toolkits. Kaldi is an open-source voice recognition toolkit. It's developed in C++ and released under the Apache License Version 2.0. Kaldi's purpose is to create code that is both current and versatile, simple to comprehend, alter, and extend.
+
+\noindent
+The following is a list of the important features of Kaldi: 
+
+\begin{itemize}
+\item[-] Integration with Finite State Transducers (FSTs): uses OpenFst toolkit as a library.
+\item[-] Extensible design: algorithms are designed to be in generic form
+\item[-] Open License: The Apache License belongs to one of the least restrictive licenses available. 
+\item[-] Complete Recipes: provides recipes for building speech recognition systems using widely available databases.
+\item[-] Thorough testing: built with the goal of having corresponding test routines for nearly all code.
+
+\end{itemize}
+
 
 \section{Etymology of the Aklanon Language}
 
