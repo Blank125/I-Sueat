@@ -3,9 +3,9 @@
 
 \chapter{Research Methodology}
 
-The project was mainly based on the Kaldi tutorial page located within the Kaldi ASR documentation site (https://kaldi-asr.org/doc/kaldi_for_dummies.html). The page provides a brief introduction to Kaldi as well as the preferred instructions and environment necessary for Kaldi installation and development.
+The project was mainly based on the Kaldi tutorial page located within the Kaldi ASR documentation site (\url{https://kaldi-asr.org/doc/kaldi_for_dummies.html}). The page provides a brief introduction to Kaldi as well as the preferred instructions and environment necessary for Kaldi installation and development.
 
-The prototype was set up in a Fedora Linux environment using baseplate files obtained from the Kaldi ASR repository in GitHub (https://github.com/kaldi-asr/kaldi.git). The Aklanon speech-to-text recognition system was then placed and developed alongside other example scripts within the egs folder (kaldi/egs).
+The prototype was set up in a Fedora Linux environment using baseplate files obtained from the Kaldi ASR repository in GitHub (\url{https://github.com/kaldi-asr/kaldi.git}). The Aklanon speech-to-text recognition system was then placed and developed alongside other example scripts within the egs folder (kaldi/egs).
 
 \section{Audio Data}
 
@@ -21,7 +21,7 @@ Various files were made according to the instructions provided in the Kaldi tuto
 
 \section{Language Data}
 
-The language data files are necessary for the modeling of a language in Kaldi. These include the files lexicon.txt, nonsilence_phones.txt, silence_phones.txt and optional_silence.txt. The file lexicon.txt contains every word available in corpus.txt along with their phonemic representations, nonsilence_phones contain non-silent phonemes, silence_phones contain silent phonemes, and optional_silence contains optional silent phonemes.
+The language data files are necessary for the modeling of a language in Kaldi. These include the files lexicon.txt, nonsilence\_phones.txt, silence\_phones.txt and optional\_silence.txt. The file lexicon.txt contains every word available in corpus.txt along with their phonemic representations, nonsilence\_phones contain non-silent phonemes, silence\_phones contain silent phonemes, and optional\_silence contains optional silent phonemes.
 
 After preparing the various kinds of data, scripts were then executed in order to showcase the results of the testing and training of the speech-to-text system.
 
