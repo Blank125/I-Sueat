@@ -3,19 +3,19 @@
 
 \chapter{Review of Related Literature}
 
-This chapter discusses... Hey guys, we need to put some filler text here to be honest. Right now its just random stuff but soon enough we should have something that we can place right here.
+%can insert something here
 
 \section{Automatic Speech technology}
 
-Automatic speech recognition (ASR) by machine has been a field of research for more than five decades. The industry has developed a broad range of commercial products where ASR as user interface has become ever more useful and pervasive [a1]. Automatic Speech Technologies are used daily in several applications and services. However, ASR technology has not reached a point where computers understand all speech in any acoustic environment or by any person. [a2]
+Automatic speech recognition (ASR) by machine has been a field of research for more than five decades. The industry has developed a broad range of commercial products where ASR as user interface has become ever more useful and pervasive \cite{li2014overview}. Automatic Speech Technologies are used daily in several applications and services. However, ASR technology has not reached a point where computers understand all speech in any acoustic environment or by any person \cite{rabiner1993fundamentals}. 
 
-The basic architecture of ASR involves four main components: signal processing and feature extraction, acoustic model (AM), language model (LM), and hypothesis search. Audio signals which are taken as input for signal processing and feature extraction components are enhanced and converted so it becomes suitable for acoustic models. The acoustic models are responsible for integrating knowledge about acoustics and phonetics. The language model processes the probability of a hypothesized word sequence from what it has learned from training. The hypothesis search component will combine the previous scores from both AM and LM and outputs a word sequence. [a3]
+The basic architecture of ASR involves four main components: signal processing and feature extraction, acoustic model (AM), language model (LM), and hypothesis search. Audio signals which are taken as input for signal processing and feature extraction components are enhanced and converted so it becomes suitable for acoustic models. The acoustic models are responsible for integrating knowledge about acoustics and phonetics. The language model processes the probability of a hypothesized word sequence from what it has learned from training. The hypothesis search component will combine the previous scores from both AM and LM and outputs a word sequence \cite{yu2016automatic}. 
 
 \section{Speech Recognition Toolkits}
+%fixb4
+Over the last few decades, commercial proprietary speech recognition systems have emerged such as AT\&T Watson .\cite{goffin2005t}, Microsoft Speech Server \cite{dunn2007pro}, Google Speech API [b3] and Nuance Recognizer [b4]. However, because these systems are difficult to incorporate into other software and provide little control over the recognizer's capabilities, open-source automatic speech recognition systems have emerged.
 
-Over the last few decades, commercial proprietary speech recognition systems have emerged such as AT\&T Watson [b1], Microsoft Speech Server [b2], Google Speech API [b3] and Nuance Recognizer [b4]. However, because these systems are difficult to incorporate into other software and provide little control over the recognizer's capabilities, open-source automatic speech recognition systems have emerged.
-
-The training of linguistic and acoustic models for open-source ASR toolkits such as HDecode, Julius, pocketsphinx, Sphinx-4, and Kaldi was done in comparative research in 2014. Their trials revealed a ranking of the toolkits based on the effort-to-performance ratio. When given out-of-the-box training and decoding pipelines, the results showed that Kaldi outperformed all other recognition toolkits. The Sphinx also demonstrated that it could give training pipelines with a high chance of producing good results in a short period of time. [b5]
+The training of linguistic and acoustic models for open-source ASR toolkits such as HDecode, Julius, pocketsphinx, Sphinx-4, and Kaldi was done in comparative research in 2014. Their trials revealed a ranking of the toolkits based on the effort-to-performance ratio. When given out-of-the-box training and decoding pipelines, the results showed that Kaldi outperformed all other recognition toolkits. The Sphinx also demonstrated that it could give training pipelines with a high chance of producing good results in a short period of time \cite{gaida2014comparing}.
 
 \section{About Kaldi}
 
@@ -39,14 +39,14 @@ The following is a list of the important features of Kaldi:
 
 The Aklanon language is spoken and understood by roughly around 360,000 people who are residents of the province of Aklan, as well as those who reside near its borders. While it is almost impossible to track the actual stages of development of the language, in a book published by De La Cruz and Zorc on Aklanon Grammar \cite{de1968study}, the language comes from a long history of evolution of proto-languages which now turned out to be the present day Aklanon. 
 
-The language itself has freely adopted English words. These words were simplified and have taken their own form of spellings. Aside from English words, there are also words borrowed from China, Spain and Japan that have been derived from to form Aklanon words. (Zorc, Prado, \& Reyes, 1969)
+The language itself has freely adopted English words. These words were simplified and have taken their own form of spellings. Aside from English words, there are also words borrowed from China, Spain and Japan that have been derived from to form Aklanon words \cite{salas1969study}. 
 
 \section{Glottal Stop}
 
-The glottal stop presents a potential issue with speech to text recognition as native speakers of the Aklanon language, like most of its neighboring dialects, generally have a system wherein the words do not actually sound like they are spelled. These glottal stops have different rules concerning their positions such as initially before a vowel, medially between vowels, consonants or when a double glottal appears, and lastly the glottal at the final position (Zorc, Prado \& Reyes, 1969). Depending on how an individual might pronounce certain words, the results from speech to text recognition could possibly vary as different stress intonations on several words could result in a mismatch in recognition.
+The glottal stop presents a potential issue with speech to text recognition as native speakers of the Aklanon language, like most of its neighboring dialects, generally have a system wherein the words do not actually sound like they are spelled. These glottal stops have different rules concerning their positions such as initially before a vowel, medially between vowels, consonants or when a double glottal appears, and lastly the glottal at the final position \cite{salas1969study}. Depending on how an individual might pronounce certain words, the results from speech to text recognition could possibly vary as different stress intonations on several words could result in a mismatch in recognition.
 
 \section{The Consonant “e”}
-As mentioned by Reyes and his team in their book The Aklanon Dialect, the letter “e” can have two different roles depending on its position in the word. It could either be treated as the standard vowel or a consonantal sound. If the letter “e” appears in an environment with a vowel, it is treated as if it’s a consonant and therefore no longer pronounced as the vowel “e”. This is because diphthongs do not exist in the Aklanon language which makes the consonantal “e” quite distinguishable. (Zorc, Prado, \& Reyes, 1969)
+As mentioned by Reyes and his team in their book The Aklanon Dialect, the letter “e” can have two different roles depending on its position in the word. It could either be treated as the standard vowel or a consonantal sound. If the letter “e” appears in an environment with a vowel, it is treated as if it’s a consonant and therefore no longer pronounced as the vowel “e”. This is because diphthongs do not exist in the Aklanon language which makes the consonantal “e” quite distinguishable \cite{salas1969study}.
 
 %missing the symbol U+0263 in between fricative and denoted
 This version of the “e” is often described as voiced velar fricative denoted be the latinized variant of the symbol of the Greek letter gamma. In various words, it tends to replace the letter “l” coming from words of other languages that have the same word format.
