@@ -4,7 +4,7 @@ This project presents the development of the I-Sueat speech-to-text system that 
 
 Additional details on Kaldi can be found here:
 https://github.com/kaldi-asr/kaldi
-http://kaldi-asr.org/doc/
+and http://kaldi-asr.org/doc/
 
 The instructions to download and install Kaldi are available on the official github repository. It is **highly recommended** to install and run the system on Linux-based operating systems.
 
