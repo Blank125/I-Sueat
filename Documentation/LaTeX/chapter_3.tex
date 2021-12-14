@@ -1,0 +1,29 @@
+% Filename: main.tex
+% Description: Methodology file for the SP
+
+\chapter{Research Methodology}
+
+The project was mainly based on the Kaldi tutorial page located within the Kaldi ASR documentation site (https://kaldi-asr.org/doc/kaldi_for_dummies.html). The page provides a brief introduction to Kaldi as well as the preferred instructions and environment necessary for Kaldi installation and development.
+
+The prototype was set up in a Fedora Linux environment using baseplate files obtained from the Kaldi ASR repository in GitHub (https://github.com/kaldi-asr/kaldi.git). The Aklanon speech-to-text recognition system was then placed and developed alongside other example scripts within the egs folder (kaldi/egs).
+
+\section{Audio Data}
+
+Currently, the words that are being implemented and tested in the project have been limited to digits. The overall corpus would eventually increase over time in order to include basic directions, common objects and regular sentences.
+
+%table here
+
+A set of 100 .wav audio files (formatted into 44.1 khz) were prepared wherein each file contains three spoken digits recorded in the Aklanon language, one by one. Each of these audio files were then placed and categorized representing a speaker. 10 different speakers were chosen, with each speaker saying 10 sentences/files which would then make up to 100 different audio files. One speaker was chosen to be tested whereas the remaining nine were placed in a separate category in order to train the ASR system.
+
+\section{Acoustic Data}
+
+Various files were made according to the instructions provided in the Kaldi tutorial. These include the files spk2gender, wav.scp, text, utt2spk and corpus.txt. The file spk2gender specifies the genders of the speakers, wav.scp connects every utterance to an audio file on a given path, text contains every utterance matched with its corresponding text transcription, utt2spk specifies which utterance belongs to which speaker, and corpus.txt contains every single possible utterance transcription among the 100 files. These data files were then prepared and sorted.
+
+\section{Language Data}
+
+The language data files are necessary for the modeling of a language in Kaldi. These include the files lexicon.txt, nonsilence_phones.txt, silence_phones.txt and optional_silence.txt. The file lexicon.txt contains every word available in corpus.txt along with their phonemic representations, nonsilence_phones contain non-silent phonemes, silence_phones contain silent phonemes, and optional_silence contains optional silent phonemes.
+
+After preparing the various kinds of data, scripts were then executed in order to showcase the results of the testing and training of the speech-to-text system.
+
+
+
