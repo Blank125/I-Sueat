@@ -3,15 +3,45 @@
 
 \chapter{Research Methodology}
 
-The project was mainly based on the Kaldi tutorial page located within the Kaldi ASR documentation site (\url{https://kaldi-asr.org/doc/kaldi_for_dummies.html}). The page provides a brief introduction to Kaldi as well as the preferred instructions and environment necessary for Kaldi installation and development.
+The project was mainly based on the Kaldi tutorial page located in the Kaldi ASR documentation site (\url{https://kaldi-asr.org/doc/kaldi_for_dummies.html}). The page provides a brief introduction to Kaldi as well as the preferred instructions and environment necessary for Kaldi installation and development.
 
-The prototype was set up in a Fedora Linux environment using baseplate files obtained from the Kaldi ASR repository in GitHub (\url{https://github.com/kaldi-asr/kaldi.git}). The Aklanon speech-to-text recognition system was then placed and developed alongside other example scripts within the egs folder (kaldi/egs).
+The prototype was set up in a Fedora Linux environment using baseplate files obtained from the Kaldi ASR repository in GitHub \url{https://github.com/kaldi-asr/kaldi.git}. The Aklanon speech-to-text recognition system was then placed and developed alongside other example scripts within the egs folder (kaldi/egs).
 
 \section{Audio Data}
 
 Currently, the words that are being implemented and tested in the project have been limited to digits. The overall corpus would eventually increase over time in order to include basic directions, common objects and regular sentences.
 
-%table here
+\begin{table}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+Digits & Aklanon Representation\\
+\hline
+1 & Isaea\\
+\hline
+2 & Daywa\\
+\hline
+3 & Tatlo\\
+\hline
+4 & Ap-at\\
+\hline
+5 & Li-ma\\
+\hline
+6 & An-om\\
+\hline
+7 & Pito\\
+\hline
+8 & Waeo\\
+\hline
+9 & Siyam\\
+\hline
+10 & Pueo\\
+\hline
+
+\end{tabular}{}
+\end{center}
+\caption{Numbers 1-10 along with their Aklanon representations}
+\end{table}
 
 A set of 100 .wav audio files (formatted into 44.1 khz) were prepared wherein each file contains three spoken digits recorded in the Aklanon language, one by one. Each of these audio files were then placed and categorized representing a speaker. 10 different speakers were chosen, with each speaker saying 10 sentences/files which would then make up to 100 different audio files. One speaker was chosen to be tested whereas the remaining nine were placed in a separate category in order to train the ASR system.
 
