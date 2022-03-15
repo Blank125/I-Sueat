@@ -1,0 +1,18 @@
+# lattice-best-path --lm-scale=12 --word-symbol-table=exp/mono/graph/words.txt "ark:gunzip -c exp/mono/decode/lat.*.gz|" ark,t:exp/mono/decode/scoring/12.tra 
+# Started at Tue Dec 14 21:17:42 PST 2021
+#
+lattice-best-path --lm-scale=12 --word-symbol-table=exp/mono/graph/words.txt 'ark:gunzip -c exp/mono/decode/lat.*.gz|' ark,t:exp/mono/decode/scoring/12.tra 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance pedro_cão_cão_cão_cão, best cost 343.453 + 37044.9 = 37388.3 over 416 frames.
+pedro_cão_cão_cão_cão cão cão cão cão 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance pedro_cão_gato_cão_gato, best cost 299.71 + 25576.2 = 25875.9 over 309 frames.
+pedro_cão_gato_cão_gato cão gato cão gato 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance pedro_leão_cão_cão_cão, best cost 296.847 + 27028.2 = 27325 over 335 frames.
+pedro_leão_cão_cão_cão leão cão cão cão 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance pedro_sapo_cão_gato_leão2, best cost 409.186 + 36045.8 = 36455 over 380 frames.
+pedro_sapo_cão_gato_leão2 sapo cão gato leão 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance pedro_sapo_gato_cão_leão, best cost 304.061 + 26098.2 = 26402.3 over 301 frames.
+pedro_sapo_gato_cão_leão sapo gato cão leão 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:124) Overall cost per frame is 88.137 = 0.949602 [graph] + 87.1874 [acoustic] over 1741 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:128) Done 5 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Dec 14 21:17:42 PST 2021, elapsed time 0 seconds

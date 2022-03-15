@@ -1,0 +1,435 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/michaeljohngarcia/kaldi/egs/newDigits/mfcc/raw_mfcc_train.1.ark,/home/michaeljohngarcia/kaldi/egs/newDigits/mfcc/raw_mfcc_train.1.scp 
+# Started at Tue Mar 15 14:47:35 PST 2022
+#
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/train/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/train/wav_train.1.scp ark:- 
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/train/utt2num_frames.1 --compress=true ark:- ark,scp:/home/michaeljohngarcia/kaldi/egs/newDigits/mfcc/raw_mfcc_train.1.ark,/home/michaeljohngarcia/kaldi/egs/newDigits/mfcc/raw_mfcc_train.1.scp 
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_10_8_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_1_2_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_2_10_6
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_2_6_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_4_1_5
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_4_5_6
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_5_1_4
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_7_8_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_8_7_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_9_7_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2453526 bytes in RIFF chunk, but after first data block there will be 36 + 2453320 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_ayam_buho_ana_rason_indi_imo_gaid_kaon_tuo_dungok
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2356446 bytes in RIFF chunk, but after first data block there will be 36 + 2356244 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_basi_haman_ubos_kaon_kaeo_suea_imo_buho_hoo_tuo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2546902 bytes in RIFF chunk, but after first data block there will be 36 + 2546692 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_buho_ayam_ubos_rason_tuo_mueay_kaon_pila_ana_haman
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2260838 bytes in RIFF chunk, but after first data block there will be 36 + 2260636 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_buho_suea_ana_mueay_basi_ubos_waea_tuo_hoo_imo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2392934 bytes in RIFF chunk, but after first data block there will be 36 + 2392728 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_hoo_suea_imo_gaid_rason_mueay_haman_saea_ayam_tuo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2600338 bytes in RIFF chunk, but after first data block there will be 36 + 2600128 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_imo_pila_gaid_mueay_tuo_dungok_ubos_buho_haman_kaon
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2260850 bytes in RIFF chunk, but after first data block there will be 36 + 2260636 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_mueay_dungok_tuo_imo_haman_buho_rason_gaid_pila_ayam
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2496490 bytes in RIFF chunk, but after first data block there will be 36 + 2496284 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_pila_hoo_tuo_buho_ana_kaon_indi_kaeo_dungok_suea
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2404634 bytes in RIFF chunk, but after first data block there will be 36 + 2404420 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_rason_dungok_gaid_mueay_pila_ubos_basi_saea_ayam_tuo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2475344 bytes in RIFF chunk, but after first data block there will be 36 + 2475132 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 20 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key annie_ubos_dungok_rason_kaon_ana_imo_hoo_kaeo_ayam_haman
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 261940 bytes in RIFF chunk, but after first data block there will be 36 + 261818 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_10_1_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 253658 bytes in RIFF chunk, but after first data block there will be 36 + 253540 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_1_2_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 220128 bytes in RIFF chunk, but after first data block there will be 36 + 220010 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_2_3_4
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 239468 bytes in RIFF chunk, but after first data block there will be 36 + 239350 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_3_4_5
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 233162 bytes in RIFF chunk, but after first data block there will be 36 + 233044 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_4_5_6
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 237050 bytes in RIFF chunk, but after first data block there will be 36 + 236932 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_5_6_7
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 237800 bytes in RIFF chunk, but after first data block there will be 36 + 237682 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_6_7_8
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 243668 bytes in RIFF chunk, but after first data block there will be 36 + 243550 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_7_8_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 211664 bytes in RIFF chunk, but after first data block there will be 36 + 211542 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_8_9_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 210748 bytes in RIFF chunk, but after first data block there will be 36 + 210626 bytes (we do not support reading multiple data chunks).
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 30 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_9_10_1
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1114028 bytes in RIFF chunk, but after first data block there will be 36 + 1113822 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_gaid_haman_ana_waea_ubos_suea_tuo_saea_mueay_pila
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1171034 bytes in RIFF chunk, but after first data block there will be 36 + 1170828 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_hoo_mueay_basi_indi_waea_ana_ubos_haman_suea_ayam
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1134292 bytes in RIFF chunk, but after first data block there will be 36 + 1134082 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_indi_buho_rason_saea_waea_mueay_haman_ayam_hoo_ubos
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1052906 bytes in RIFF chunk, but after first data block there will be 36 + 1052696 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_kaeo_imo_rason_dungok_ayam_indi_basi_hoo_buho_kaon
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1174742 bytes in RIFF chunk, but after first data block there will be 36 + 1174532 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_rason_saea_hoo_kaon_mueay_ana_kaeo_haman_buho_gaid
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1168012 bytes in RIFF chunk, but after first data block there will be 36 + 1167802 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_saea_pila_buho_dungok_gaid_tuo_kaeo_imo_rason_kaon
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1063926 bytes in RIFF chunk, but after first data block there will be 36 + 1063720 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_saea_tuo_ayam_rason_basi_haman_waea_ana_kaeo_hoo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1183816 bytes in RIFF chunk, but after first data block there will be 36 + 1183610 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_suea_kaon_dungok_gaid_ana_kaeo_imo_tuo_pila_basi
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1066510 bytes in RIFF chunk, but after first data block there will be 36 + 1066300 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_ubos_kaon_suea_indi_mueay_pila_gaid_buho_imo_dungok
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1099330 bytes in RIFF chunk, but after first data block there will be 36 + 1099120 bytes (we do not support reading multiple data chunks).
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 40 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key gilmer_waea_ayam_imo_pila_indi_ubos_dungok_suea_tuo_basi
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 548986 bytes in RIFF chunk, but after first data block there will be 36 + 548864 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_10_7_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 573558 bytes in RIFF chunk, but after first data block there will be 36 + 573440 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_2_7_8
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 512118 bytes in RIFF chunk, but after first data block there will be 36 + 512000 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_3_2_1
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 532598 bytes in RIFF chunk, but after first data block there will be 36 + 532480 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_3_6_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 551034 bytes in RIFF chunk, but after first data block there will be 36 + 550912 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_3_8_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 555126 bytes in RIFF chunk, but after first data block there will be 36 + 555008 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_4_1_5
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 510070 bytes in RIFF chunk, but after first data block there will be 36 + 509952 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_5_1_4
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 557190 bytes in RIFF chunk, but after first data block there will be 36 + 557056 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_6_10_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 460918 bytes in RIFF chunk, but after first data block there will be 36 + 460800 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_6_5_4
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 548982 bytes in RIFF chunk, but after first data block there will be 36 + 548864 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 50 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_9_8_7
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2322410 bytes in RIFF chunk, but after first data block there will be 36 + 2322200 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_basi_suea_ubos_waea_haman_rason_kaeo_gaid_ayam_pila
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2455222 bytes in RIFF chunk, but after first data block there will be 36 + 2455012 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_buho_dungok_haman_waea_ana_suea_hoo_ubos_indi_kaeo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2334482 bytes in RIFF chunk, but after first data block there will be 36 + 2334276 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_hoo_mueay_ayam_haman_basi_ana_tuo_kaeo_waea_indi
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2088974 bytes in RIFF chunk, but after first data block there will be 36 + 2088772 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_imo_kaon_ana_ayam_haman_saea_indi_tuo_ubos_suea
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2286190 bytes in RIFF chunk, but after first data block there will be 36 + 2285980 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_kaeo_basi_rason_ana_suea_ayam_buho_indi_ubos_dungok
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2242550 bytes in RIFF chunk, but after first data block there will be 36 + 2242344 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_kaeo_pila_ayam_imo_ana_kaon_saea_rason_tuo_haman
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2531698 bytes in RIFF chunk, but after first data block there will be 36 + 2531484 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_rason_saea_ubos_ana_haman_kaon_dungok_kaeo_buho_ayam
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2527194 bytes in RIFF chunk, but after first data block there will be 36 + 2526980 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_tuo_pila_haman_dungok_gaid_ana_buho_rason_ayam_mueay
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2282162 bytes in RIFF chunk, but after first data block there will be 36 + 2281956 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_ubos_suea_tuo_mueay_indi_ana_dungok_saea_hoo_basi
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2242550 bytes in RIFF chunk, but after first data block there will be 36 + 2242344 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 60 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jovy_waea_ana_rason_hoo_gaid_ayam_kaeo_imo_ubos_kaon
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 298440 bytes in RIFF chunk, but after first data block there will be 36 + 298318 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_10_1_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 281698 bytes in RIFF chunk, but after first data block there will be 36 + 281580 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_1_2_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 328726 bytes in RIFF chunk, but after first data block there will be 36 + 328608 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_2_3_4
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 376580 bytes in RIFF chunk, but after first data block there will be 36 + 376462 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_3_4_5
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 291542 bytes in RIFF chunk, but after first data block there will be 36 + 291424 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_4_5_6
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 347056 bytes in RIFF chunk, but after first data block there will be 36 + 346938 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_5_6_7
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 376578 bytes in RIFF chunk, but after first data block there will be 36 + 376460 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_6_7_8
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 342230 bytes in RIFF chunk, but after first data block there will be 36 + 342112 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_7_8_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 324868 bytes in RIFF chunk, but after first data block there will be 36 + 324746 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_8_9_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 349656 bytes in RIFF chunk, but after first data block there will be 36 + 349532 bytes (we do not support reading multiple data chunks).
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 70 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_9_10_1
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1383166 bytes in RIFF chunk, but after first data block there will be 36 + 1382960 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_gaid_haman_ana_waea_ubos_suea_tuo_saea_mueay_pila
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1241430 bytes in RIFF chunk, but after first data block there will be 36 + 1241224 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_hoo_mueay_basi_indi_waea_ana_ubos_haman_suea_ayam
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1422722 bytes in RIFF chunk, but after first data block there will be 36 + 1422512 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_indi_buho_rason_saea_waea_mueay_haman_ayam_hoo_ubos
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1415244 bytes in RIFF chunk, but after first data block there will be 36 + 1415034 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_kaeo_imo_rason_dungok_ayam_indi_basi_hoo_buho_kaon
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1407270 bytes in RIFF chunk, but after first data block there will be 36 + 1407060 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_rason_saea_hoo_kaon_mueay_ana_kaeo_haman_buho_gaid
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1256546 bytes in RIFF chunk, but after first data block there will be 36 + 1256336 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_saea_pila_buho_dungok_gaid_tuo_kaeo_imo_rason_kaon
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1401352 bytes in RIFF chunk, but after first data block there will be 36 + 1401146 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_saea_tuo_ayam_rason_basi_haman_waea_ana_kaeo_hoo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1348724 bytes in RIFF chunk, but after first data block there will be 36 + 1348518 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_suea_kaon_dungok_gaid_ana_kaeo_imo_tuo_pila_basi
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1421270 bytes in RIFF chunk, but after first data block there will be 36 + 1421060 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_ubos_kaon_suea_indi_mueay_pila_gaid_buho_imo_dungok
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1425220 bytes in RIFF chunk, but after first data block there will be 36 + 1425010 bytes (we do not support reading multiple data chunks).
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 80 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key librada_waea_ayam_imo_pila_indi_ubos_dungok_suea_tuo_basi
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_1_4_8
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_1_8_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_2_3_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_2_4_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_3_5_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_3_6_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_3_7_8
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_5_6_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_6_7_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 90 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_6_8_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3156194 bytes in RIFF chunk, but after first data block there will be 36 + 3155988 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_basi_imo_kaeo_suea_mueay_ana_buho_haman_ayam_ubos
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3186062 bytes in RIFF chunk, but after first data block there will be 36 + 3185856 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_gaid_rason_ayam_dungok_ubos_ana_tuo_imo_kaon_pila
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3261102 bytes in RIFF chunk, but after first data block there will be 36 + 3260888 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_haman_ayam_buho_ubos_saea_tuo_pila_dungok_mueay_kaeo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3422706 bytes in RIFF chunk, but after first data block there will be 36 + 3422496 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_kaon_hoo_pila_haman_waea_suea_mueay_indi_basi_buho
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3684150 bytes in RIFF chunk, but after first data block there will be 36 + 3683940 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_mueay_kaeo_ana_buho_rason_kaon_haman_basi_ayam_pila
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3341502 bytes in RIFF chunk, but after first data block there will be 36 + 3341296 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_pila_ayam_saea_rason_ubos_basi_buho_imo_kaeo_ana
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3121374 bytes in RIFF chunk, but after first data block there will be 36 + 3121160 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_pila_mueay_ayam_imo_dungok_indi_haman_buho_saea_rason
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3186070 bytes in RIFF chunk, but after first data block there will be 36 + 3185856 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_rason_kaon_saea_tuo_indi_ayam_dungok_suea_pila_haman
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3537034 bytes in RIFF chunk, but after first data block there will be 36 + 3536828 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_ubos_tuo_ayam_hoo_suea_indi_haman_mueay_ana_kaeo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 3481742 bytes in RIFF chunk, but after first data block there will be 36 + 3481532 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 100 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key michaela_ubos_waea_saea_ana_haman_suea_kaon_kaeo_basi_gaid
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 557180 bytes in RIFF chunk, but after first data block there will be 36 + 557056 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_10_6_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 551030 bytes in RIFF chunk, but after first data block there will be 36 + 550912 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_1_4_5
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 582882 bytes in RIFF chunk, but after first data block there will be 36 + 582764 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_1_5_4
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 622710 bytes in RIFF chunk, but after first data block there will be 36 + 622592 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_2_3_1
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 493686 bytes in RIFF chunk, but after first data block there will be 36 + 493568 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_5_6_4
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 577654 bytes in RIFF chunk, but after first data block there will be 36 + 577536 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_6_3_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 555130 bytes in RIFF chunk, but after first data block there will be 36 + 555008 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_7_10_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 510070 bytes in RIFF chunk, but after first data block there will be 36 + 509952 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_7_2_8
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 522362 bytes in RIFF chunk, but after first data block there will be 36 + 522240 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_8_3_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 555126 bytes in RIFF chunk, but after first data block there will be 36 + 555008 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 110 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_8_9_7
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1991582 bytes in RIFF chunk, but after first data block there will be 36 + 1991368 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_ayam_mueay_kaon_haman_kaeo_rason_waea_saea_buho_pila
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2160758 bytes in RIFF chunk, but after first data block there will be 36 + 2160548 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_basi_kaeo_rason_hoo_dungok_ayam_saea_suea_ana_waea
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2030222 bytes in RIFF chunk, but after first data block there will be 36 + 2030012 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_gaid_hoo_haman_basi_tuo_ana_kaeo_waea_dungok_rason
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2160758 bytes in RIFF chunk, but after first data block there will be 36 + 2160548 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_kaeo_buho_haman_waea_ubos_indi_gaid_ana_mueay_kaon
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1914034 bytes in RIFF chunk, but after first data block there will be 36 + 1913828 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_kaon_suea_indi_mueay_ana_pila_imo_basi_waea_saea
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2060818 bytes in RIFF chunk, but after first data block there will be 36 + 2060608 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_mueay_dungok_suea_pila_ana_buho_rason_hoo_ayam_indi
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2138894 bytes in RIFF chunk, but after first data block there will be 36 + 2138684 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_mueay_pila_ayam_imo_rason_dungok_tuo_hoo_buho_haman
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1966902 bytes in RIFF chunk, but after first data block there will be 36 + 1966692 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_suea_kaon_ubos_waea_dungok_hoo_saea_kaeo_haman_ana
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2128318 bytes in RIFF chunk, but after first data block there will be 36 + 2128112 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_tuo_gaid_pila_ayam_waea_basi_indi_haman_hoo_kaeo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2129042 bytes in RIFF chunk, but after first data block there will be 36 + 2128828 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 120 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key nicole_waea_indi_rason_haman_ubos_basi_tuo_hoo_dungok_saea
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_10_8_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_1_2_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_2_10_6
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_2_6_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_4_1_5
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_4_5_6
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_5_1_4
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_7_8_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_8_7_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 130 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_9_7_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2159750 bytes in RIFF chunk, but after first data block there will be 36 + 2159464 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_buho_suea_mueay_ana_pila_dungok_rason_kaon_saea_imo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2175418 bytes in RIFF chunk, but after first data block there will be 36 + 2175136 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_imo_suea_tuo_rason_kaon_indi_ayam_dungok_gaid_hoo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2217698 bytes in RIFF chunk, but after first data block there will be 36 + 2217416 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_mueay_indi_pila_kaon_kaeo_ana_buho_suea_haman_tuo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2359622 bytes in RIFF chunk, but after first data block there will be 36 + 2359340 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_pila_waea_dungok_basi_gaid_indi_saea_hoo_ana_ubos
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2512470 bytes in RIFF chunk, but after first data block there will be 36 + 2512188 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_rason_ubos_imo_kaon_basi_tuo_gaid_mueay_waea_buho
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2351790 bytes in RIFF chunk, but after first data block there will be 36 + 2351504 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_saea_haman_buho_basi_indi_gaid_ayam_suea_rason_waea
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2061768 bytes in RIFF chunk, but after first data block there will be 36 + 2061484 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_suea_ayam_saea_haman_kaon_dungok_tuo_hoo_gaid_kaeo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2167584 bytes in RIFF chunk, but after first data block there will be 36 + 2167300 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_tuo_buho_suea_haman_pila_kaeo_gaid_imo_indi_ayam
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2159750 bytes in RIFF chunk, but after first data block there will be 36 + 2159464 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_ubos_haman_rason_tuo_dungok_indi_kaon_pila_basi_ana
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2206782 bytes in RIFF chunk, but after first data block there will be 36 + 2206496 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 140 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key ron_ubos_saea_suea_waea_basi_indi_ayam_kaeo_haman_rason
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1188090 bytes in RIFF chunk, but after first data block there will be 36 + 1187840 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_1_4_8
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 909562 bytes in RIFF chunk, but after first data block there will be 36 + 909312 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_2_3_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1138938 bytes in RIFF chunk, but after first data block there will be 36 + 1138688 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_2_4_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 958714 bytes in RIFF chunk, but after first data block there will be 36 + 958464 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_3_4_5
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1155322 bytes in RIFF chunk, but after first data block there will be 36 + 1155072 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_3_5_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1237242 bytes in RIFF chunk, but after first data block there will be 36 + 1236992 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_3_6_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1302778 bytes in RIFF chunk, but after first data block there will be 36 + 1302528 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_5_6_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1122554 bytes in RIFF chunk, but after first data block there will be 36 + 1122304 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_6_7_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 1188090 bytes in RIFF chunk, but after first data block there will be 36 + 1187840 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_6_8_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 991482 bytes in RIFF chunk, but after first data block there will be 36 + 991232 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 150 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_8_9_10
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2550018 bytes in RIFF chunk, but after first data block there will be 36 + 2549812 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_buho_waea_gaid_ayam_saea_haman_basi_suea_hoo_ubos
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2452110 bytes in RIFF chunk, but after first data block there will be 36 + 2451900 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_haman_ana_waea_basi_imo_saea_suea_tuo_rason_dungok
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2643854 bytes in RIFF chunk, but after first data block there will be 36 + 2643648 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_haman_imo_suea_ubos_ana_pila_hoo_indi_mueay_kaon
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2452110 bytes in RIFF chunk, but after first data block there will be 36 + 2451900 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_indi_dungok_ana_waea_buho_suea_kaon_ayam_basi_ubos
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2423558 bytes in RIFF chunk, but after first data block there will be 36 + 2423344 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_mueay_waea_tuo_kaeo_pila_buho_rason_kaon_dungok_indi
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2441914 bytes in RIFF chunk, but after first data block there will be 36 + 2441700 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_rason_waea_ubos_dungok_basi_tuo_kaeo_kaon_indi_mueay
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2627538 bytes in RIFF chunk, but after first data block there will be 36 + 2627328 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_saea_basi_ubos_haman_hoo_mueay_gaid_indi_dungok_ana
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2643858 bytes in RIFF chunk, but after first data block there will be 36 + 2643648 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_saea_pila_waea_gaid_kaeo_dungok_suea_ayam_rason_imo
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2623446 bytes in RIFF chunk, but after first data block there will be 36 + 2623244 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_tuo_hoo_indi_mueay_basi_gaid_kaeo_buho_pila_ana
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 2590822 bytes in RIFF chunk, but after first data block there will be 36 + 2590612 bytes (we do not support reading multiple data chunks).
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:122) Channel not specified but you have data with 2 channels; defaulting to zero
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 160 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key sweeth_ubos_tuo_ayam_indi_kaon_haman_kaeo_ana_basi_gaid
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:185)  Done 160 out of 160 utterances.
+LOG (copy-feats[5.5.986~1-5caf25]:main():copy-feats.cc:143) Copied 160 feature matrices.
+# Accounting: time=16 threads=1
+# Ended (code 0) at Tue Mar 15 14:47:51 PST 2022, elapsed time 16 seconds

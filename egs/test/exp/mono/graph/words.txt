@@ -1,0 +1,16 @@
+<eps> 0
+!SIL 1
+<UNK> 2
+an-om 3
+ap-at 4
+daywa 5
+isaea 6
+li-má 7
+pitó 8
+púeo 9
+siyám 10
+tatlo 11
+waeo 12
+#0 13
+<s> 14
+</s> 15

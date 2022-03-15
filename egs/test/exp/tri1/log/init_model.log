@@ -1,0 +1,18 @@
+# gmm-init-model --write-occs=exp/tri1/1.occs exp/tri1/tree exp/tri1/treeacc data/lang/topo exp/tri1/1.mdl 
+# Started at Wed Mar  9 17:22:59 PST 2022
+#
+gmm-init-model --write-occs=exp/tri1/1.occs exp/tri1/tree exp/tri1/treeacc data/lang/topo exp/tri1/1.mdl 
+LOG (gmm-init-model[5.5.986~1-5caf25]:main():gmm-init-model.cc:271) Number of separate statistics is 242
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:55) Tree has pdf-id 1 with no stats; corresponding phone list: 6 7 8 9 10 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 3: 91; corresponding phone list: 15 16 17 18 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 7: 45; corresponding phone list: 31 32 33 34 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 10: 23; corresponding phone list: 43 44 45 46 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 19: 19; corresponding phone list: 79 80 81 82 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 28: 17; corresponding phone list: 75 76 77 78 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 30: 71; corresponding phone list: 31 32 33 34 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 31: 24; corresponding phone list: 67 68 69 70 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 53: 36; corresponding phone list: 39 40 41 42 
+WARNING (gmm-init-model[5.5.986~1-5caf25]:InitAmGmm():gmm-init-model.cc:83) Very small count for state 64: 90; corresponding phone list: 67 68 69 70 
+LOG (gmm-init-model[5.5.986~1-5caf25]:main():gmm-init-model.cc:306) Wrote model.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Mar  9 17:22:59 PST 2022, elapsed time 0 seconds

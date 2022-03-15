@@ -1,0 +1,50 @@
+# lattice-depth-per-frame "ark:gunzip -c exp/mono/decode/lat.1.gz|" "ark,t:|gzip -c > exp/mono/decode/depth_tmp.1.gz" ark:- | lattice-best-path --acoustic-scale=0.1 ark:- ark:/dev/null "ark,t:|gzip -c >exp/mono/decode/ali_tmp.1.gz" 
+# Started at Tue Mar 15 14:51:06 PST 2022
+#
+lattice-depth-per-frame 'ark:gunzip -c exp/mono/decode/lat.1.gz|' 'ark,t:|gzip -c > exp/mono/decode/depth_tmp.1.gz' ark:- 
+lattice-best-path --acoustic-scale=0.1 ark:- ark:/dev/null 'ark,t:|gzip -c >exp/mono/decode/ali_tmp.1.gz' 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_10_1_2, best cost 31.4838 + 2591.53 = 2623.02 over 265 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_10_4_7, best cost 25.2794 + 2273.73 = 2299.01 over 224 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_2_3, best cost 25.9163 + 2687.44 = 2713.36 over 267 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_3_2, best cost 31.3113 + 2689.48 = 2720.8 over 262 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_5_6, best cost 24.3431 + 2530.35 = 2554.69 over 247 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_4_4_2, best cost 27.1524 + 2625.17 = 2652.33 over 254 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_4_5_6, best cost 31.3266 + 2544.36 = 2575.68 over 258 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_7_7_7, best cost 38.5601 + 2012.19 = 2050.75 over 204 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_7_8_9, best cost 28.3575 + 2416.9 = 2445.25 over 247 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_8_10_9, best cost 17.5757 + 2275.81 = 2293.39 over 226 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_ana_rason_buho_imo_suea_kaon_kaeo_waea_saea_ubos, best cost 92.5142 + 11641.7 = 11734.2 over 1226 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_ana_waea_dungok_haman_tuo_basi_imo_pila_ubos_hoo, best cost 95.9062 + 11916.3 = 12012.2 over 1249 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_ayam_mueay_indi_waea_tuo_buho_kaeo_gaid_ubos_imo, best cost 95.7809 + 11374.4 = 11470.1 over 1197 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_dungok_pila_ana_ubos_kaeo_mueay_saea_rason_buho_kaon, best cost 88.6386 + 12078.9 = 12167.5 over 1263 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_gaid_haman_hoo_imo_ayam_suea_indi_tuo_waea_basi, best cost 98.7229 + 12356.5 = 12455.2 over 1313 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_hoo_pila_gaid_tuo_dungok_haman_basi_indi_ayam_mueay, best cost 98.1867 + 12077.5 = 12175.7 over 1300 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_pila_saea_dungok_hoo_kaon_haman_ana_basi_rason_suea, best cost 98.4042 + 11672.3 = 11770.7 over 1251 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_saea_indi_buho_gaid_kaeo_mueay_ayam_kaon_suea_rason, best cost 94.6377 + 12571.1 = 12665.8 over 1334 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_suea_haman_ana_buho_ayam_kaeo_indi_gaid_hoo_kaon, best cost 97.2885 + 11357.2 = 11454.5 over 1214 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_waea_rason_ubos_pila_tuo_saea_dungok_imo_mueay_basi, best cost 100.271 + 11482.6 = 11582.9 over 1248 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_1_4_8, best cost 32.1784 + 4244.81 = 4276.99 over 442 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_1_8_10, best cost 35.5496 + 3865.4 = 3900.94 over 407 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_2_3_9, best cost 48.1425 + 4067.73 = 4115.87 over 432 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_2_4_9, best cost 41.7792 + 4748.47 = 4790.24 over 502 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_3_5_9, best cost 46.1349 + 4096.54 = 4142.68 over 437 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_3_7_8, best cost 56.4053 + 4726.05 = 4782.45 over 502 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_5_6_9, best cost 33.1554 + 3540.69 = 3573.85 over 372 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_6_7_9, best cost 34.6547 + 4140.82 = 4175.48 over 430 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_6_8_10, best cost 41.8885 + 3818.4 = 3860.29 over 411 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_8_9_10, best cost 41.6388 + 4174.13 = 4215.77 over 458 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_basi_ayam_mueay_kaon_saea_kaeo_dungok_ana_pila_haman, best cost 109.344 + 11749.6 = 11859 over 1255 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_buho_haman_tuo_kaeo_ayam_basi_waea_imo_suea_gaid, best cost 103.264 + 10753.6 = 10856.8 over 1123 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_dungok_kaon_ubos_mueay_ayam_gaid_basi_waea_ana_saea, best cost 104.607 + 11214.1 = 11318.7 over 1184 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_haman_basi_kaeo_suea_hoo_indi_kaon_rason_ayam_tuo, best cost 105.698 + 11696 = 11801.7 over 1243 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_indi_ana_saea_imo_buho_dungok_waea_hoo_kaeo_suea, best cost 114.084 + 11706.3 = 11820.4 over 1240 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_kaeo_indi_imo_tuo_ayam_waea_hoo_dungok_kaon_ubos, best cost 108.215 + 11619.2 = 11727.4 over 1255 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_mueay_imo_saea_pila_hoo_gaid_haman_dungok_indi_waea, best cost 93.1276 + 11490.6 = 11583.8 over 1212 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_pila_ana_tuo_buho_kaon_hoo_mueay_rason_ubos_dungok, best cost 109.497 + 11546.5 = 11656 over 1243 frames.
+LOG (lattice-depth-per-frame[5.5.986~1-5caf25]:main():lattice-depth-per-frame.cc:82) Done 40 lattices.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_suea_waea_kaon_ubos_saea_tuo_dungok_ana_kaeo_buho, best cost 104.324 + 12420.1 = 12524.5 over 1306 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_waea_ayam_pila_basi_gaid_mueay_rason_tuo_buho_ubos, best cost 102.769 + 11717.8 = 11820.5 over 1257 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:124) Overall cost per frame is 9.54725 = 0.0852681 [graph] + 9.46198 [acoustic] over 31760 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:128) Done 40 lattices, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Mar 15 14:51:07 PST 2022, elapsed time 1 seconds

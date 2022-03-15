@@ -1,0 +1,28 @@
+# lattice-best-path --lm-scale=17 --word-symbol-table=exp/tri1/graph/words.txt "ark:gunzip -c exp/tri1/decode/lat.*.gz|" ark,t:exp/tri1/decode/scoring/17.tra 
+# Started at Wed Mar  9 17:23:37 PST 2022
+#
+lattice-best-path --lm-scale=17 --word-symbol-table=exp/tri1/graph/words.txt 'ark:gunzip -c exp/tri1/decode/lat.*.gz|' ark,t:exp/tri1/decode/scoring/17.tra 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_10_1_2, best cost 448.513 + 26697.2 = 27145.7 over 265 frames.
+jesusa_10_1_2 púeo isaea daywa 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_10_4_7, best cost 575.264 + 23578.9 = 24154.1 over 224 frames.
+jesusa_10_4_7 púeo ap-at ap-at pitó púeo 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_2_3, best cost 397.694 + 27446.2 = 27843.9 over 267 frames.
+jesusa_1_2_3 isaea daywa tatlo 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_3_2, best cost 421.809 + 27383.4 = 27805.2 over 262 frames.
+jesusa_1_3_2 isaea tatlo daywa 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_5_6, best cost 493.289 + 26045 = 26538.3 over 247 frames.
+jesusa_1_5_6 isaea ap-at li-má an-om 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_4_4_2, best cost 405.111 + 26921.8 = 27326.9 over 254 frames.
+jesusa_4_4_2 ap-at ap-at daywa 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_4_5_6, best cost 499.445 + 26291.9 = 26791.4 over 258 frames.
+jesusa_4_5_6 ap-at ap-at li-má an-om 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_7_7_7, best cost 488.201 + 21183.6 = 21671.8 over 204 frames.
+jesusa_7_7_7 pitó púeo pitó púeo pitó 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_7_8_9, best cost 476.053 + 25229.8 = 25705.9 over 247 frames.
+jesusa_7_8_9 pitó púeo waeo siyám 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_8_10_9, best cost 367.793 + 23662.6 = 24030.4 over 226 frames.
+jesusa_8_10_9 waeo púeo siyám 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:124) Overall cost per frame is 105.548 = 1.86356 [graph] + 103.684 [acoustic] over 2454 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:128) Done 10 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Mar  9 17:23:37 PST 2022, elapsed time 0 seconds

@@ -1,0 +1,16 @@
+!SIL 1.0 sil_S
+<UNK> 1.0 spn_S
+an-om 1.0 an_B om_E
+an-om 1.0 anom_S
+ap-at 1.0 a_B pat_E
+ap-at 1.0 ap_B at_E
+daywa 1.0 d_B ay_I wa_E
+isaea 1.0 i_B sa_I la_E
+li-má 1.0 li_B ma_E
+pitó 1.0 pi_B to_E
+pitó 1.0 pit_B o_E
+púeo 1.0 pu_B lo_E
+siyám 1.0 si_B yam_E
+siyám 1.0 sh_B am_E
+tatlo 1.0 tat_B lo_E
+waeo 1.0 wa_B lo_E

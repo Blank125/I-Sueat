@@ -1,0 +1,30 @@
+# lattice-depth-per-frame "ark:gunzip -c exp/mono/decode/lat.1.gz|" "ark,t:|gzip -c > exp/mono/decode/depth_tmp.1.gz" ark:- | lattice-best-path --acoustic-scale=0.1 ark:- ark:/dev/null "ark,t:|gzip -c >exp/mono/decode/ali_tmp.1.gz" 
+# Started at Tue Mar 15 14:45:35 PST 2022
+#
+lattice-depth-per-frame 'ark:gunzip -c exp/mono/decode/lat.1.gz|' 'ark,t:|gzip -c > exp/mono/decode/depth_tmp.1.gz' ark:- 
+lattice-best-path --acoustic-scale=0.1 ark:- ark:/dev/null 'ark,t:|gzip -c >exp/mono/decode/ali_tmp.1.gz' 
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_10_1_2, best cost 24.8545 + 2681.82 = 2706.67 over 265 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_10_4_7, best cost 34.4844 + 2343.68 = 2378.17 over 224 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_2_3, best cost 29.4678 + 2738.22 = 2767.69 over 267 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_3_2, best cost 29.4853 + 2736.18 = 2765.67 over 262 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_1_5_6, best cost 26.9106 + 2638.46 = 2665.37 over 247 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_4_4_2, best cost 34.5716 + 2673.28 = 2707.86 over 254 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_4_5_6, best cost 37.8596 + 2599.92 = 2637.78 over 258 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_7_7_7, best cost 33.9299 + 2094.06 = 2127.99 over 204 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_7_8_9, best cost 28.1351 + 2504.79 = 2532.93 over 247 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance jesusa_8_10_9, best cost 23.0533 + 2379.35 = 2402.4 over 226 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_1_4_8, best cost 42.5336 + 4374.88 = 4417.41 over 442 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_1_8_10, best cost 38.66 + 3990.07 = 4028.73 over 407 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_2_3_9, best cost 39.1252 + 4138.15 = 4177.27 over 432 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_2_4_9, best cost 41.8857 + 4867.6 = 4909.48 over 502 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_3_5_9, best cost 42.2051 + 4149.18 = 4191.39 over 437 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_3_7_8, best cost 46.7511 + 4828.03 = 4874.78 over 502 frames.
+LOG (lattice-depth-per-frame[5.5.986~1-5caf25]:main():lattice-depth-per-frame.cc:82) Done 20 lattices.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_5_6_9, best cost 44.801 + 3723.84 = 3768.64 over 372 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_6_7_9, best cost 47.2319 + 4316.31 = 4363.55 over 430 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_6_8_10, best cost 40.6929 + 3882.95 = 3923.64 over 411 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:99) For utterance joecel_8_9_10, best cost 35.6449 + 4272.97 = 4308.62 over 458 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:124) Overall cost per frame is 10.0272 = 0.105489 [graph] + 9.92168 [acoustic] over 6847 frames.
+LOG (lattice-best-path[5.5.986~1-5caf25]:main():lattice-best-path.cc:128) Done 20 lattices, failed for 0
+# Accounting: time=0 threads=1
+# Ended (code 0) at Tue Mar 15 14:45:35 PST 2022, elapsed time 0 seconds

@@ -1,0 +1,9 @@
+an_B ap_B at_B ay_B d_B i_B la_B li_B lo_B ma_B om_B pi_B pu_B sa_B si_B tat_B to_B wa_B yam_B 
+an_E ap_E at_E ay_E d_E i_E la_E li_E lo_E ma_E om_E pi_E pu_E sa_E si_E tat_E to_E wa_E yam_E 
+an_I ap_I at_I ay_I d_I i_I la_I li_I lo_I ma_I om_I pi_I pu_I sa_I si_I tat_I to_I wa_I yam_I 
+an_S ap_S at_S ay_S d_S i_S la_S li_S lo_S ma_S om_S pi_S pu_S sa_S si_S tat_S to_S wa_S yam_S 
+sil spn 
+sil_B spn_B 
+sil_E spn_E 
+sil_I spn_I 
+sil_S spn_S 

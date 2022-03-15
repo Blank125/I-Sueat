@@ -1,0 +1,38 @@
+!SIL 1.0 sil_S
+<UNK> 1.0 spn_S
+an-om 1.0 an_B om_E
+an-om 1.0 anom_S
+ana 1.0 an_B a_E
+ana 1.0 ana_S
+ap-at 1.0 a_B pat_E
+ap-at 1.0 ap_B at_E
+ayam 1.0 a_B yam_E
+basi 1.0 ba_B si_E
+buho 1.0 bu_B ho_E
+daywa 1.0 d_B ay_I wa_E
+dungok 1.0 d_B u_I ng_I ok_E
+gaid 1.0 ga_B id_E
+haman 1.0 ham_B an_E
+haman 1.0 ha_B man_E
+hoo 1.0 ho_B o_E
+imo 1.0 i_B mo_E
+indi 1.0 in_B di_E
+isaea 1.0 i_B sa_I la_E
+kaeo 1.0 ka_B lo_E
+kaon 1.0 ka_B on_E
+li-má 1.0 li_B ma_E
+mueay 1.0 mu_B lay_E
+pila 1.0 pi_B la_E
+pitó 1.0 pi_B to_E
+pitó 1.0 pit_B o_E
+púeo 1.0 pu_B lo_E
+rason 1.0 ra_B son_E
+saea 1.0 sa_B la_E
+siyám 1.0 si_B yam_E
+siyám 1.0 sh_B am_E
+suea 1.0 su_B la_E
+tatlo 1.0 tat_B lo_E
+tuo 1.0 tu_B o_E
+ubos 1.0 u_B bos_E
+waea 1.0 wa_B la_E
+waeo 1.0 wa_B lo_E

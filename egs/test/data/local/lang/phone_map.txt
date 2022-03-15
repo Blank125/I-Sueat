@@ -1,0 +1,21 @@
+sil sil sil_B sil_E sil_I sil_S 
+spn spn spn_B spn_E spn_I spn_S 
+an an_B an_E an_I an_S 
+ap ap_B ap_E ap_I ap_S 
+at at_B at_E at_I at_S 
+ay ay_B ay_E ay_I ay_S 
+d d_B d_E d_I d_S 
+i i_B i_E i_I i_S 
+la la_B la_E la_I la_S 
+li li_B li_E li_I li_S 
+lo lo_B lo_E lo_I lo_S 
+ma ma_B ma_E ma_I ma_S 
+om om_B om_E om_I om_S 
+pi pi_B pi_E pi_I pi_S 
+pu pu_B pu_E pu_I pu_S 
+sa sa_B sa_E sa_I sa_S 
+si si_B si_E si_I si_S 
+tat tat_B tat_E tat_I tat_S 
+to to_B to_E to_I to_S 
+wa wa_B wa_E wa_I wa_S 
+yam yam_B yam_E yam_I yam_S 

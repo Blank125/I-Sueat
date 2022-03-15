@@ -1,0 +1,9 @@
+# compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst "ark:sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split1/1/text|" "ark:|gzip -c >exp/mono/fsts.1.gz" 
+# Started at Tue Mar 15 14:47:57 PST 2022
+#
+compile-train-graphs --read-disambig-syms=data/lang/phones/disambig.int exp/mono/tree exp/mono/0.mdl data/lang/L.fst 'ark:sym2int.pl --map-oov 2 -f 2- data/lang/words.txt < data/train/split1/1/text|' 'ark:|gzip -c >exp/mono/fsts.1.gz' 
+sym2int.pl: replacing muea with 2
+** Replaced 1 instances of OOVs with 2
+LOG (compile-train-graphs[5.5.986~1-5caf25]:main():compile-train-graphs.cc:147) compile-train-graphs: succeeded for 160 graphs, failed for 0
+# Accounting: time=1 threads=1
+# Ended (code 0) at Tue Mar 15 14:47:58 PST 2022, elapsed time 1 seconds

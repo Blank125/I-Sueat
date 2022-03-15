@@ -1,0 +1,30 @@
+# compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- | copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/michaeljohngarcia/kaldi/egs/test/mfcc/raw_mfcc_test.1.ark,/home/michaeljohngarcia/kaldi/egs/test/mfcc/raw_mfcc_test.1.scp 
+# Started at Wed Mar  9 17:21:59 PST 2022
+#
+copy-feats --write-num-frames=ark,t:exp/make_mfcc/test/utt2num_frames.1 --compress=true ark:- ark,scp:/home/michaeljohngarcia/kaldi/egs/test/mfcc/raw_mfcc_test.1.ark,/home/michaeljohngarcia/kaldi/egs/test/mfcc/raw_mfcc_test.1.scp 
+compute-mfcc-feats --write-utt2dur=ark,t:exp/make_mfcc/test/utt2dur.1 --verbose=2 --config=conf/mfcc.conf scp,p:exp/make_mfcc/test/wav_test.1.scp ark:- 
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 235410 bytes in RIFF chunk, but after first data block there will be 36 + 235288 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_10_1_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 199302 bytes in RIFF chunk, but after first data block there will be 36 + 199180 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_10_4_7
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 237768 bytes in RIFF chunk, but after first data block there will be 36 + 237650 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_1_2_3
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 232772 bytes in RIFF chunk, but after first data block there will be 36 + 232654 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_1_3_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 219854 bytes in RIFF chunk, but after first data block there will be 36 + 219736 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_1_5_6
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 226210 bytes in RIFF chunk, but after first data block there will be 36 + 226092 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_4_4_2
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 229340 bytes in RIFF chunk, but after first data block there will be 36 + 229222 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_4_5_6
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 181386 bytes in RIFF chunk, but after first data block there will be 36 + 181268 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_7_7_7
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 219850 bytes in RIFF chunk, but after first data block there will be 36 + 219732 bytes (we do not support reading multiple data chunks).
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_7_8_9
+WARNING (compute-mfcc-feats[5.5.986~1-5caf25]:Read():wave-reader.cc:260) Expected 201518 bytes in RIFF chunk, but after first data block there will be 36 + 201394 bytes (we do not support reading multiple data chunks).
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:181) Processed 10 utterances
+VLOG[2] (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:182) Processed features for key jesusa_8_10_9
+LOG (compute-mfcc-feats[5.5.986~1-5caf25]:main():compute-mfcc-feats.cc:185)  Done 10 out of 10 utterances.
+LOG (copy-feats[5.5.986~1-5caf25]:main():copy-feats.cc:143) Copied 10 feature matrices.
+# Accounting: time=0 threads=1
+# Ended (code 0) at Wed Mar  9 17:21:59 PST 2022, elapsed time 0 seconds

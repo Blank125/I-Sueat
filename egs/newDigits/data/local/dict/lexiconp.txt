@@ -1,0 +1,38 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+an-om	1.0	an om
+an-om   1.0	anom
+ana     1.0	an a
+ana     1.0	ana
+ap-at   1.0	a pat
+ap-at	1.0	ap at
+ayam    1.0	a yam
+basi    1.0	ba si
+buho    1.0	bu ho
+daywa	1.0	d ay wa
+dungok  1.0	d u ng ok
+gaid    1.0	ga id
+haman   1.0	ham an
+haman   1.0	ha man
+hoo     1.0	ho o
+imo     1.0	i mo
+indi    1.0	in di
+isaea	1.0	i sa la
+kaeo    1.0	ka lo
+kaon    1.0	ka on
+li-má	1.0	li ma
+mueay   1.0	mu lay
+pila    1.0	pi la
+pitó 	1.0	pi to
+pitó 	1.0	pit o
+púeo 	1.0	pu lo
+rason   1.0	ra son
+saea    1.0	sa la
+siyám	1.0	si yam
+siyám	1.0	sh am
+suea    1.0	su la
+tatlo	1.0	tat lo
+tuo     1.0	tu o
+ubos    1.0	u bos
+waea    1.0	wa la
+waeo	1.0	wa lo

@@ -1,0 +1,28 @@
+shared split sil sil_B sil_E sil_I sil_S
+shared split spn spn_B spn_E spn_I spn_S
+shared split a_B a_E a_I a_S
+shared split am_B am_E am_I am_S
+shared split an_B an_E an_I an_S
+shared split anom_B anom_E anom_I anom_S
+shared split ap_B ap_E ap_I ap_S
+shared split at_B at_E at_I at_S
+shared split ay_B ay_E ay_I ay_S
+shared split d_B d_E d_I d_S
+shared split i_B i_E i_I i_S
+shared split la_B la_E la_I la_S
+shared split li_B li_E li_I li_S
+shared split lo_B lo_E lo_I lo_S
+shared split ma_B ma_E ma_I ma_S
+shared split o_B o_E o_I o_S
+shared split om_B om_E om_I om_S
+shared split pat_B pat_E pat_I pat_S
+shared split pi_B pi_E pi_I pi_S
+shared split pit_B pit_E pit_I pit_S
+shared split pu_B pu_E pu_I pu_S
+shared split sa_B sa_E sa_I sa_S
+shared split sh_B sh_E sh_I sh_S
+shared split si_B si_E si_I si_S
+shared split tat_B tat_E tat_I tat_S
+shared split to_B to_E to_I to_S
+shared split wa_B wa_E wa_I wa_S
+shared split yam_B yam_E yam_I yam_S

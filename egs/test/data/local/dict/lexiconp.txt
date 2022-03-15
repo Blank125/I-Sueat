@@ -1,0 +1,12 @@
+!SIL 1.0	sil
+<UNK> 1.0	spn
+an-om	1.0	an om
+ap-at	1.0	ap at
+daywa	1.0	d ay wa
+isaea	1.0	i sa la
+li-má	1.0	li ma
+pitó 	1.0	pi to
+púeo 	1.0	pu lo
+siyám	1.0	si yam
+tatlo	1.0	tat lo
+waeo	1.0	wa lo

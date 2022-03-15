@@ -1,0 +1,52 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/tri1/decode/lat.1.gz" 
+# Started at Tue Mar 15 14:46:11 PST 2022
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/tri1/graph/words.txt exp/tri1/final.mdl exp/tri1/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/tri1/decode/lat.1.gz' 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+add-deltas ark:- ark:- 
+jesusa_10_1_2 púeo an-om isaea daywa 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_10_1_2 is -8.51745 over 265 frames.
+jesusa_10_4_7 púeo ap-at pitó púeo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_10_4_7 is -8.93866 over 224 frames.
+jesusa_1_2_3 isaea daywa tatlo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_1_2_3 is -8.67133 over 267 frames.
+jesusa_1_3_2 isaea tatlo daywa 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_1_3_2 is -8.76206 over 262 frames.
+jesusa_1_5_6 isaea li-má an-om 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_1_5_6 is -8.90808 over 247 frames.
+jesusa_4_4_2 ap-at ap-at daywa 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_4_4_2 is -8.98426 over 254 frames.
+jesusa_4_5_6 ap-at li-má an-om 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_4_5_6 is -8.65406 over 258 frames.
+jesusa_7_7_7 pitó púeo pitó púeo pitó 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_7_7_7 is -8.84081 over 204 frames.
+jesusa_7_8_9 pitó púeo waeo an-om siyám 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_7_8_9 is -8.70548 over 247 frames.
+jesusa_8_10_9 waeo púeo siyám 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_8_10_9 is -8.942 over 226 frames.
+joecel_1_4_8 isaea ap-at ap-at púeo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_1_4_8 is -8.44007 over 442 frames.
+joecel_1_8_10 isaea waeo púeo an-om 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_1_8_10 is -8.39609 over 407 frames.
+joecel_2_3_9 daywa ap-at tatlo siyám 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_2_3_9 is -8.14341 over 432 frames.
+joecel_2_4_9 daywa an-om ap-at siyám siyám 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_2_4_9 is -8.26037 over 502 frames.
+joecel_3_5_9 tatlo li-má ap-at siyám an-om 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_3_5_9 is -8.09057 over 437 frames.
+LOG (apply-cmvn[5.5.986~1-5caf25]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 20 utterances, errors on 0
+joecel_3_7_8 tatlo an-om pitó púeo púeo siyám 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_3_7_8 is -8.23296 over 502 frames.
+joecel_5_6_9 li-má ap-at an-om an-om siyám 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_5_6_9 is -8.5189 over 372 frames.
+joecel_6_7_9 an-om pitó an-om siyám siyám 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_6_7_9 is -8.53535 over 430 frames.
+joecel_6_8_10 an-om púeo púeo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_6_8_10 is -8.03829 over 411 frames.
+joecel_8_9_10 waeo siyám siyám púeo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_8_9_10 is -7.9611 over 458 frames.
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:main():gmm-latgen-faster.cc:176) Time taken 3.62157s: real-time factor assuming 100 frames/sec is 0.0528929
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:main():gmm-latgen-faster.cc:179) Done 20 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -8.44604 over 6847 frames.
+# Accounting: time=4 threads=1
+# Ended (code 0) at Tue Mar 15 14:46:15 PST 2022, elapsed time 4 seconds

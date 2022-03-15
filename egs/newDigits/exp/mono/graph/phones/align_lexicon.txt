@@ -1,0 +1,39 @@
+!SIL !SIL sil_S
+<UNK> <UNK> spn_S
+<eps> <eps> sil
+an-om an-om an_B om_E
+an-om an-om anom_S
+ana ana an_B a_E
+ana ana ana_S
+ap-at ap-at a_B pat_E
+ap-at ap-at ap_B at_E
+ayam ayam a_B yam_E
+basi basi ba_B si_E
+buho buho bu_B ho_E
+daywa daywa d_B ay_I wa_E
+dungok dungok d_B u_I ng_I ok_E
+gaid gaid ga_B id_E
+haman haman ha_B man_E
+haman haman ham_B an_E
+hoo hoo ho_B o_E
+imo imo i_B mo_E
+indi indi in_B di_E
+isaea isaea i_B sa_I la_E
+kaeo kaeo ka_B lo_E
+kaon kaon ka_B on_E
+li-má li-má li_B ma_E
+mueay mueay mu_B lay_E
+pila pila pi_B la_E
+pitó pitó pi_B to_E
+pitó pitó pit_B o_E
+púeo púeo pu_B lo_E
+rason rason ra_B son_E
+saea saea sa_B la_E
+siyám siyám sh_B am_E
+siyám siyám si_B yam_E
+suea suea su_B la_E
+tatlo tatlo tat_B lo_E
+tuo tuo tu_B o_E
+ubos ubos u_B bos_E
+waea waea wa_B la_E
+waeo waeo wa_B lo_E

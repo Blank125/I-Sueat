@@ -1,0 +1,13 @@
+!SIL sil_S
+<UNK> spn_S
+an-om an_B om_E
+ap-at ap_B at_E
+daywa d_B ay_I wa_E
+isaea i_B sa_I la_E
+li-má li_B ma_E
+pitó pi_B to_E
+púeo pu_B lo_E
+siyám si_B yam_E
+tatlo tat_B lo_E
+waeo wa_B lo_E
+<eps> sil

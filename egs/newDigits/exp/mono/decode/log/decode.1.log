@@ -1,0 +1,92 @@
+# gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst "ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |" "ark:|gzip -c > exp/mono/decode/lat.1.gz" 
+# Started at Tue Mar 15 14:50:44 PST 2022
+#
+gmm-latgen-faster --max-active=7000 --beam=13.0 --lattice-beam=6.0 --acoustic-scale=0.083333 --allow-partial=true --word-symbol-table=exp/mono/graph/words.txt exp/mono/final.mdl exp/mono/graph/HCLG.fst 'ark,s,cs:apply-cmvn  --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- | add-deltas  ark:- ark:- |' 'ark:|gzip -c > exp/mono/decode/lat.1.gz' 
+add-deltas ark:- ark:- 
+apply-cmvn --utt2spk=ark:data/test/split1/1/utt2spk scp:data/test/split1/1/cmvn.scp scp:data/test/split1/1/feats.scp ark:- 
+jesusa_10_1_2 buho saea daywa waea 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_10_1_2 is -8.26825 over 265 frames.
+jesusa_10_4_7 pitó tuo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_10_4_7 is -8.57164 over 224 frames.
+jesusa_1_2_3 daywa 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_1_2_3 is -8.48481 over 267 frames.
+jesusa_1_3_2 daywa 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_1_3_2 is -8.67225 over 262 frames.
+jesusa_1_5_6 saea 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_1_5_6 is -8.63547 over 247 frames.
+jesusa_4_4_2 daywa 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_4_4_2 is -8.71964 over 254 frames.
+jesusa_4_5_6 ayam 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_4_5_6 is -8.33614 over 258 frames.
+jesusa_7_7_7 pitó tuo pitó tuo imo tuo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_7_7_7 is -8.40873 over 204 frames.
+jesusa_7_8_9 pitó tuo siyám 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_7_8_9 is -8.26894 over 247 frames.
+jesusa_8_10_9 ayam 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_8_10_9 is -8.46928 over 226 frames.
+jesusa_ana_rason_buho_imo_suea_kaon_kaeo_waea_saea_ubos rason buho suea buho waea saea 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_ana_rason_buho_imo_suea_kaon_kaeo_waea_saea_ubos is -7.98744 over 1226 frames.
+jesusa_ana_waea_dungok_haman_tuo_basi_imo_pila_ubos_hoo waea tuo basi imo pila 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_ana_waea_dungok_haman_tuo_basi_imo_pila_ubos_hoo is -8.0266 over 1249 frames.
+jesusa_ayam_mueay_indi_waea_tuo_buho_kaeo_gaid_ubos_imo ayam mueay imo indi waea tuo buho buho ubos 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_ayam_mueay_indi_waea_tuo_buho_kaeo_gaid_ubos_imo is -7.99865 over 1197 frames.
+jesusa_dungok_pila_ana_ubos_kaeo_mueay_saea_rason_buho_kaon buho pila saea mueay saea rason buho kaon 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_dungok_pila_ana_ubos_kaeo_mueay_saea_rason_buho_kaon is -8.03986 over 1263 frames.
+jesusa_gaid_haman_hoo_imo_ayam_suea_indi_tuo_waea_basi gaid haman hoo ayam suea indi tuo waea basi 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_gaid_haman_hoo_imo_ayam_suea_indi_tuo_waea_basi is -7.91752 over 1313 frames.
+jesusa_hoo_pila_gaid_tuo_dungok_haman_basi_indi_ayam_mueay hoo pila tuo buho dungok haman basi indi ayam mueay 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_hoo_pila_gaid_tuo_dungok_haman_basi_indi_ayam_mueay is -7.81748 over 1300 frames.
+jesusa_pila_saea_dungok_hoo_kaon_haman_ana_basi_rason_suea pila saea dungok hoo ayam waea basi rason suea 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_pila_saea_dungok_hoo_kaon_haman_ana_basi_rason_suea is -7.85397 over 1251 frames.
+jesusa_saea_indi_buho_gaid_kaeo_mueay_ayam_kaon_suea_rason saea indi buho mueay ayam kaon indi suea rason 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_saea_indi_buho_gaid_kaeo_mueay_ayam_kaon_suea_rason is -7.92394 over 1334 frames.
+jesusa_suea_haman_ana_buho_ayam_kaeo_indi_gaid_hoo_kaon suea rason ana buho ayam indi gaid hoo kaon 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_suea_haman_ana_buho_ayam_kaeo_indi_gaid_hoo_kaon is -7.87611 over 1214 frames.
+jesusa_waea_rason_ubos_pila_tuo_saea_dungok_imo_mueay_basi waea rason ubos pila tuo saea dungok imo mueay basi 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance jesusa_waea_rason_ubos_pila_tuo_saea_dungok_imo_mueay_basi is -7.74764 over 1248 frames.
+joecel_1_4_8 isaea waeo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_1_4_8 is -8.0758 over 442 frames.
+joecel_1_8_10 isaea waeo buho 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_1_8_10 is -8.00172 over 407 frames.
+joecel_2_3_9 daywa buho ayam imo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_2_3_9 is -7.95752 over 432 frames.
+joecel_2_4_9 imo daywa ayam 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_2_4_9 is -7.96578 over 502 frames.
+joecel_3_5_9 buho imo ubos 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_3_5_9 is -7.91741 over 437 frames.
+joecel_3_7_8 imo pitó waeo buho ubos 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_3_7_8 is -7.95769 over 502 frames.
+joecel_5_6_9 waea ana 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_5_6_9 is -8.02075 over 372 frames.
+joecel_6_7_9 ayam 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_6_7_9 is -8.10434 over 430 frames.
+joecel_6_8_10 waeo buho imo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_6_8_10 is -7.84349 over 411 frames.
+joecel_8_9_10 waeo imo imo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_8_9_10 is -7.68574 over 458 frames.
+joecel_basi_ayam_mueay_kaon_saea_kaeo_dungok_ana_pila_haman basi ayam mueay kaon saea dungok suea pila rason 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_basi_ayam_mueay_kaon_saea_kaeo_dungok_ana_pila_haman is -7.88885 over 1255 frames.
+joecel_buho_haman_tuo_kaeo_ayam_basi_waea_imo_suea_gaid haman tuo ayam basi waea imo suea gaid 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_buho_haman_tuo_kaeo_ayam_basi_waea_imo_suea_gaid is -8.07094 over 1123 frames.
+joecel_dungok_kaon_ubos_mueay_ayam_gaid_basi_waea_ana_saea kaon ubos mueay saea ayam gaid basi waea saea saea 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_dungok_kaon_ubos_mueay_ayam_gaid_basi_waea_ana_saea is -7.98114 over 1184 frames.
+joecel_haman_basi_kaeo_suea_hoo_indi_kaon_rason_ayam_tuo haman rason saea basi suea indi rason rason ayam tuo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_haman_basi_kaeo_suea_hoo_indi_kaon_rason_ayam_tuo is -7.92601 over 1243 frames.
+joecel_indi_ana_saea_imo_buho_dungok_waea_hoo_kaeo_suea indi ana waea saea indi waea dungok waea hoo an-om suea 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_indi_ana_saea_imo_buho_dungok_waea_hoo_kaeo_suea is -7.95906 over 1240 frames.
+joecel_kaeo_indi_imo_tuo_ayam_waea_hoo_dungok_kaon_ubos indi indi tuo buho ayam waea hoo dungok saea rason ubos 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_kaeo_indi_imo_tuo_ayam_waea_hoo_dungok_kaon_ubos is -7.80144 over 1255 frames.
+joecel_mueay_imo_saea_pila_hoo_gaid_haman_dungok_indi_waea mueay saea pila indi waea dungok indi waea 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_mueay_imo_saea_pila_hoo_gaid_haman_dungok_indi_waea is -7.97742 over 1212 frames.
+LOG (apply-cmvn[5.5.986~1-5caf25]:main():apply-cmvn.cc:162) Applied cepstral mean normalization to 40 utterances, errors on 0
+joecel_pila_ana_tuo_buho_kaon_hoo_mueay_rason_ubos_dungok pila tuo kaon hoo saea mueay saea rason ubos dungok hoo 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_pila_ana_tuo_buho_kaon_hoo_mueay_rason_ubos_dungok is -7.82884 over 1243 frames.
+joecel_suea_waea_kaon_ubos_saea_tuo_dungok_ana_kaeo_buho suea waea rason ubos saea tuo dungok suea 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_suea_waea_kaon_ubos_saea_tuo_dungok_ana_kaeo_buho is -8.0042 over 1306 frames.
+joecel_waea_ayam_pila_basi_gaid_mueay_rason_tuo_buho_ubos waea ayam pila basi gaid mueay rason tuo buho ubos 
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:DecodeUtteranceLatticeFaster():decoder-wrappers.cc:375) Log-like per frame for utterance joecel_waea_ayam_pila_basi_gaid_mueay_rason_tuo_buho_ubos is -7.84986 over 1257 frames.
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:main():gmm-latgen-faster.cc:176) Time taken 22.758s: real-time factor assuming 100 frames/sec is 0.0716562
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:main():gmm-latgen-faster.cc:179) Done 40 utterances, failed for 0
+LOG (gmm-latgen-faster[5.5.986~1-5caf25]:main():gmm-latgen-faster.cc:181) Overall log-likelihood per frame is -7.96999 over 31760 frames.
+# Accounting: time=22 threads=1
+# Ended (code 0) at Tue Mar 15 14:51:06 PST 2022, elapsed time 22 seconds
