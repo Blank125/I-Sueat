@@ -3,13 +3,13 @@
 
 \chapter{Research Methodology}
 
-The project was mainly based on the Kaldi tutorial page located in the Kaldi ASR documentation site (\url{https://kaldi-asr.org/doc/kaldi_for_dummies.html}). The page provides a brief introduction to Kaldi as well as the preferred instructions and environment necessary for Kaldi installation and development.
+The project was mainly based on the Kaldi tutorial page located in the Kaldi ASR documentation site (\url{https://kaldi-asr.org/doc/kaldi_for_dummies.html}). The page provides a brief introduction to Kaldi as well as the preferred instructions and environment necessary for Kaldi installation and development. 
 
 The prototype was set up in a Fedora Linux environment using baseplate files obtained from the Kaldi ASR repository in GitHub \url{https://github.com/kaldi-asr/kaldi.git}. The Aklanon speech-to-text recognition system was then placed and developed alongside other example scripts within the egs folder (kaldi/egs).
 
 \section{Audio Data}
 
-Currently, the words that are being implemented and tested in the project have been limited to digits. The overall corpus would eventually increase over time in order to include basic directions, common objects and regular sentences.
+The words that were implemented and tested in the project included digits, directions, and basic words. The overall corpus eventually increased over time to include even more words as testing was continuously carried out.
 
 \begin{table}
 \begin{center}
@@ -55,5 +55,8 @@ The language data files are necessary for the modeling of a language in Kaldi. T
 
 After preparing the various kinds of data, scripts were then executed in order to showcase the results of the testing and training of the speech-to-text system.
 
+\section {Consonant "e" in the Lexicon file}
+
+The consonant "e" has different sounds when placed side to side with various vowels. Since there is no offical phoneme to distinguish these sounds, the letter "e" was replaced by the letter "l" and and is paired along side with the vowel it is sounded with. For instance the sounds "ea", "ae", "eo", and "eu" are identified in the lexicon file as "la","al", "lo", and "lu" respectively.
 
 
